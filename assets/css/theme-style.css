@@ -1,0 +1,42 @@
+/* General CSS Start */
+
+*, *::before, *::after{-webkit-box-sizing:border-box;box-sizing:border-box}
+html{line-height:1.15;-webkit-text-size-adjust:100%}
+body{margin:0;-webkit-font-smoothing:antialiased;font-family:'Roboto Slab', sans-serif;font-size:16px;color:#434343;font-weight:400;overflow-x:hidden!important}
+body.page, body.post{margin:0}
+b, strong{font-weight:bolder}
+img{border-style:none;max-width:100%;height:auto;vertical-align:bottom}
+h1, h2, h3, h4, h5, h6{font-family:'Roboto Slab', sans-serif;color:#2A2C2E;font-weight:400}
+h1{font-size:48px}
+h2{font-size:40px;line-height:53px}
+h3{font-size:36px;line-height:48px}
+h4{font-size:30px;line-height:36px}
+h5{font-size:24px;line-height:32px}
+h6{font-size:22px}
+p{font-size:16px;color:#434343;font-weight:400;line-height:28px;margin-bottom:15px;font-family:'Roboto', sans-serif}
+p strong{color:#000;font-size:16px;line-height:28px}
+strong{color:#000}
+ul{list-style:none;margin:0;padding:0}
+ul li, ol li{font-size:18px;color:#4c5056;font-family:'Roboto', sans-serif;line-height:36px}
+a{text-decoration:none;outline:none}
+a:focus, img:focus{outline:none}
+a:hover{color:#ee3124}
+figure{margin:0}
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #ffe3e3 inset!important}
+figure, ul{font-size:0}
+.container{width:100%;padding:0 30px;margin:0 auto;max-width:1350px}
+
+/* Header CSS Start */
+header.site-header{background:#6E07F3;padding:15px 0;position:relative}
+header.site-header .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+header.site-header .site-branding{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;}
+header.site-header .site-title a{color: white;}
+#site-navigation .nav-menu{width: 100%;justify-content: end;}
+#site-navigation .nav-menu li{margin-right: 20px;}
+#site-navigation .nav-menu li:last-child{margin-right: 0;}
+#site-navigation .nav-menu li a{color: white;}
+
+/* Footer CSS Start */
+footer.site-footer{background:#6E07F3;padding:15px 0}
+footer.site-footer .site-info{text-align: center;}
+footer.site-footer .site-info p{color: white;}
